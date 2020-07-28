@@ -5,7 +5,7 @@ author: FANG Miao
 
 this is my Python practise project, not just something about basic variables and functions, but even more things also, like virtual environment...
 
-## venv vs. vritualenv
+## venv vs. virtualenv
 
 * [comparison](https://virtualenv.pypa.io/en/latest/)
 
@@ -33,5 +33,26 @@ this is my Python practise project, not just something about basic variables and
 
   `deactivate` type this command will deactivate this env, but not delete it. if you want to delete some env, just delete the env folder but make sure that you are not using it.
 
-  
+### virtualenv
 
+* install virtualenv
+
+  `pip install --user virtialenv`
+
+* build env
+
+  `py -m virtualenv myenv`
+
+  `cd myenv`
+
+  `.\Scripts\activate // activate this env`
+
+  deactivate same as the former one
+
+  #### [virtualenvwrapper](https://pypi.org/project/virtualenvwrapper/)
+
+  virtualenvwrapper is a set of extensions to [virtualenv](http://pypi.python.org/pypi/virtualenv) tool. Wrappers for creating, copying and deleting environments, including user-configurable hooks.
+
+  there is a sad thing that I tried to install `virtualenvwrapper-win` and set the path `WORKON_HOME == ****` in the system already, but no response appear after I type command `workon` and `mkvirtualenv` *sigh*
+
+  
