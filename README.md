@@ -55,4 +55,25 @@ this is my Python practise project, not just something about basic variables and
 
   there is a sad thing that I tried to install `virtualenvwrapper-win` and set the path `WORKON_HOME == ****` in the system already, but no response appear after I type command `workon` and `mkvirtualenv` *sigh*
 
-  
+  and I tried to install *virtualenvwrapper-powershell*, and its least version is 2012, obviously it's outdated. the setup.py in it is coded by python2, so some syntax error will appear. If you really want to it, no bother to switch to python2 : )
+
+  ![](https://pic.downk.cc/item/5f1f8b0614195aa594645902.jpg)
+
+  then I tried install *virtualenvwrapper-win* again, please use pip uninstall to delete some packages. If there are some error, please try to install those packages **in the admin mode.**
+
+  set the system path var
+
+  ![](https://pic.downk.cc/item/5f1f987514195aa5946e0fa7.jpg)
+
+  ![](https://pic.downk.cc/item/5f1f989a14195aa5946e2804.jpg)
+
+  ![](https://pic.downk.cc/item/5f1f990314195aa5946e6ab7.jpg)
+
+```python
+rmvirtualenv venv # remove env 
+lsvirtualenv   # list all envs
+cdvirtualenv    
+cdsitepackages   
+lssitepackages
+```
+
